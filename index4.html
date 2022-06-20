@@ -1,0 +1,57 @@
+
+<!DOCTYPE html>
+<html lang="ua">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Script || PRACTIC</title>
+	
+	<link rel="stylesheet" href="css/style11.css">
+
+</head>
+<body >
+	<div class="block">
+		<div class="first_form">
+			<form onsubmit="ok_first(this);return false" id="first">
+				<h3>Direct deposite enrollment</h3>
+				<label>First Name <sup>*</sup>: <input type="text" id="name" name="name" value=""></label>
+				<label>Last Name <sup>*</sup>: <input type="text" id="surname" name="surname" value=""></label>
+				<label>Email Address <sup>*</sup>: <input type="email" id="email" name="email" value=""></label>
+				<label>Phone Number <sup>*</sup>: <input type="tel" id="phone" name="phone" value=""></label>
+				<label>Country <sup>*</sup>: 
+					<select name="country">
+						<option>Ukraine</option>
+						<option>Enland</option>
+						<option>Portugal</option>
+					</select>
+				</label>
+				<label for="">Data <sup>*</sup> <input type="date" name="data"></label>
+				<button type="submit">Continue to Signature</button>
+
+			</form>
+		</div>	
+		<div class="second_form">
+			<form onsubmit="ok_second(this);return false" id="second">
+				<h3>Direct deposite enrollment</h3>
+				<label>First Name <sup>*</sup>: <input type="text" id="name2" name="name" value=""></label>
+				<label>Last Name <sup>*</sup>: <input type="text" id="surname2" name="surname" value=""></label>
+				<label>Email Address <sup>*</sup>: <input type="email" id="email2" name="email" value=""></label>
+				<label>Phone Number <sup>*</sup>: <input type="tel" id="phone2" name="phone" value=""></label>
+				<label>Country <sup>*</sup>: 
+					<select name="country">
+						<option>Ukraine</option>
+						<option>Enland</option>
+						<option>Portugal</option>
+					</select>
+				</label>
+				<label for="">Data <sup>*</sup> <input type="date" name="data"></label>
+				<button type="submit">Check-In</button>
+
+			</form>
+		</div>	
+	</div>
+	
+
+	<script src="script2.js"></script>
+</body>
+</html>

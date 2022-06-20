@@ -1,0 +1,477 @@
+/***Navigation**/
+body {
+  padding: 0;
+  margin: 0;
+  font-family: 'Montserrat', sans-serif;
+  background: url(../img/home_first.jpg);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+li{
+  color:white;
+  text-decoration: none;
+}
+
+li.active:before {
+  content: "";
+  display: block;
+  height: 3px;
+  width: 100%;
+  background-color: #D4AA00;
+  position: absolute;
+  top: -10px;
+  left: 0;
+  -webkit-transition: all .4s ease-in-out;
+  transition: all .4s ease-in-out;
+}
+
+li.active:after {
+  content: "";
+  display: block;
+  height: 3px;
+  width: 100%;
+  background-color: #D4AA00;
+  position: absolute;
+  top: 30px;
+  left: 0;
+  -webkit-transition: all .4s ease-in-out;
+  transition: all .4s ease-in-out;
+}
+
+.br{
+  width: 1px;
+  height: 100px;
+  background-color: darkgray;
+  margin: 20px auto;
+}
+
+h2 {
+  margin-top: 70px;
+  font-size: 60px;
+  font-weight: 200;
+}
+.old{
+  text-align: center;
+}
+.container_one{
+  text-align: center;
+}
+
+.container_one h1 {
+  color: white;
+  text-align: center;
+  width: 70%;
+  margin: 250px auto;
+  font-size: 90px;
+  font-weight: 200;
+}
+
+.container_one h2 {
+  margin-top: 70px;
+  font-size: 60px;
+  font-weight: 200;
+}
+
+.container_one .container_two {
+  background-color: #fff;
+  border: 1px solid white;
+  position: relative;
+}
+
+.container_one .container_two .sector_left-wrap {
+  width: 100%;
+  height: 400px;
+}
+
+.container_one .container_two .sector_left-wrap #block_left {
+  width: 100%;
+  position: relative;
+  left: -150%;
+  -webkit-transition-duration: 1s;
+          transition-duration: 1s;
+}
+
+.container_one .container_two .sector_left-wrap .show_block {
+  display: block;
+  width: 100%;
+}
+
+.container_one .container_two.sector_left-wrap .sector_left-wrap:hover .block_left {
+  left: 0;
+}
+
+.container_one .wrap_p {
+  width: 1080px;
+  font-size: 20px;
+  margin: 0 auto;
+}
+
+.container_one .wrap_p p {
+  margin-bottom: 35px;
+}
+
+header {
+  padding: 50px 50px 0;
+  text-align: center;
+  background: white;
+}
+
+header .logo img {
+  width: 300px;
+  height: 75px;
+  border: 1px dotted #DCB87C;
+}
+
+header .logo img:hover {
+  border: 1px dotted white;
+}
+
+header nav ul {
+  list-style: none;
+  width: 1080px;
+  padding: 0;
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: nowrap;
+      flex-wrap: nowrap;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+header nav ul li {
+  margin: 30px 30px 10px;
+  position: relative;
+}
+
+header nav ul li:before {
+  content: "";
+  display: block;
+  height: 0px;
+  width: 100%;
+  background-color: #D4AA00;
+  position: absolute;
+  top: -25px;
+  left: 0;
+  -webkit-transition: all .4s ease-in-out;
+  transition: all .4s ease-in-out;
+}
+
+header nav ul li:hover:before {
+  top: -10px;
+  left: 0;
+  display: block;
+  height: 3px;
+}
+
+header nav ul li:after {
+  content: "";
+  display: block;
+  height: 0px;
+  width: 100%;
+  background-color: #D4AA00;
+  position: absolute;
+  top: 45px;
+  left: 0;
+  -webkit-transition: all .4s ease-in-out;
+  transition: all .4s ease-in-out;
+}
+
+header nav ul li:hover:after {
+  top: 30px;
+  left: 0;
+  display: block;
+  height: 3px;
+}
+
+header nav ul li a {
+  text-decoration: none;
+  font-size: 18px;
+  color: black;
+  padding: 16px 5px;
+}
+
+.photo {
+  padding: 40px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: nowrap;
+      flex-wrap: nowrap;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  background-color: white;
+  border-bottom: 1px solid #fff;
+}
+
+.photo #order {
+  overflow: visible;
+}
+
+.photo > div {
+  width: 30%;
+  -webkit-box-shadow: 0 0 10px 5px silver;
+          box-shadow: 0 0 10px 5px silver;
+  position: relative;
+  overflow: hidden;
+}
+
+.photo > div .card_back {
+  text-align: center;
+  width: 100%;
+  height: 537px;
+  background-color: #fff;
+  position: absolute;
+}
+
+.photo > div .card_back h3 {
+  font-size: 1.2em;
+  font-weight: 200;
+  margin-top: 180px;
+}
+
+.photo > div .card_back p {
+  font-size: 0.9em;
+  margin: 20px 0 40px;
+}
+
+.photo > div .card_back a {
+  padding: 10px 20px;
+  border: 2px solid #D4AA00;
+  color: #D4AA00;
+  text-decoration: none;
+  font-size: 14px;
+  border-radius: 4px;
+  -webkit-transition-duration: 300ms;
+          transition-duration: 300ms;
+}
+
+.photo > div .card_back a:hover {
+  color: #fff;
+  background-color: #D4AA00;
+}
+
+.photo > div .flip-card-back {
+  text-align: center;
+  width: 100%;
+  height: 537px;
+  background-color: #fff;
+  position: absolute;
+}
+
+.photo > div .flip-card-back h3 {
+  font-size: 1.2em;
+  font-weight: 200;
+  margin-top: 180px;
+}
+
+.photo > div .flip-card-back p {
+  font-size: 0.9em;
+  margin: 20px 0 40px;
+}
+
+.photo > div .flip-card-back a {
+  padding: 10px 20px;
+  border: 2px solid #D4AA00;
+  color: #D4AA00;
+  text-decoration: none;
+  font-size: 14px;
+  border-radius: 4px;
+  -webkit-transition-duration: 300ms;
+          transition-duration: 300ms;
+}
+
+.photo > div .flip-card-back a:hover {
+  color: #fff;
+  background-color: #D4AA00;
+}
+
+.photo > div .card_back-1 {
+  top: -537px;
+  left: 0;
+  -webkit-transition-duration: 0.5s;
+          transition-duration: 0.5s;
+}
+
+.photo > div .card_back-3 {
+  top: 0;
+  right: -100%;
+  -webkit-transition-duration: 0.5s;
+          transition-duration: 0.5s;
+}
+
+.photo > div .card_front-1 {
+  height: 537px;
+  width: 100%;
+  background: url(../img/home_1.png);
+  background-size: cover;
+  background-position: center;
+}
+
+.photo > div .flip-card-front {
+  height: 537px;
+  width: 100%;
+  background: url(../img/home_2.png);
+  background-size: cover;
+  background-position: center;
+}
+
+.photo > div .card_front-3 {
+  height: 537px;
+  width: 100%;
+  background: url(../img/home_3.png);
+  background-size: cover;
+  background-position: center;
+}
+
+.card_block:hover .card_back-1 {
+  top: 0;
+}
+
+.card_block:hover .card_back-3 {
+  right: 0;
+}
+
+.order {
+  background-color: transparent;
+  width: 100%;
+  height: 537px;
+  border: 1px solid #f1f1f1;
+  -webkit-perspective: 1000px;
+          perspective: 1000px;
+ 
+}
+
+
+.flip-card-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  -webkit-transition: -webkit-transform 0.6s;
+  transition: -webkit-transform 0.6s;
+  transition: transform 0.6s;
+  transition: transform 0.6s, -webkit-transform 0.6s;
+  -webkit-transform-style: preserve-3d;
+          transform-style: preserve-3d;
+}
+
+
+.flip-card:hover .flip-card-inner {
+  -webkit-transform: rotateY(180deg);
+          transform: rotateY(180deg);
+}
+
+
+.flip-card-front, .flip-card-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden;
+  
+  backface-visibility: hidden;
+}
+
+/* Style iconki*/
+.flip-card-back {
+  -webkit-transform: rotateY(180deg);
+          transform: rotateY(180deg);
+}
+
+.links {
+  background-color: #fff;
+  border-top: 1px solid white;
+  border-bottom: 1px solid white;
+  text-align: center;
+}
+
+.links .links_iconki {
+  width: 1280px;
+  margin: 0 auto;
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: nowrap;
+      flex-wrap: nowrap;
+  overflow: hidden;
+}
+
+.links .links_iconki #prev {
+  background-color: #fff;
+  border: none;
+  color: silver;
+  display: block;
+  font-size: 26px;
+  position: absolute;
+  left: 30px;
+  top: 50%;
+}
+
+.links .links_iconki #next {
+  background-color: #fff;
+  border: none;
+  color: silver;
+  display: block;
+  font-size: 26px;
+  position: absolute;
+  top: 50%;
+  right: 0;
+}
+
+.links .links_iconki img {
+  width: 25%;
+}
+
+
+
+/*Pidval*/
+footer {
+  background: #F2F2F2;
+  border-top: 1px solid #F2F2F2;
+  border-bottom: 1px solid #F2F2F2;
+  text-align: center;
+}
+
+footer h4 {
+  margin: 10px auto 40px;
+  text-align: center;
+  font-size: 25px;
+  font-weight: 300;
+}
+
+footer .socseti {
+  text-align: center;
+}
+
+footer .socseti a {
+  display: inline-block;
+  margin: 0 10px 40px;
+  text-decoration: none;
+  font-size: 1.8em;
+  padding: 4px;
+  color: black;
+  background-color: #F2F2F2;
+  border-radius: 50%;
+}
+
+footer .socseti .inst:hover, footer .socseti .in_:hover {
+  color: #D4AA00;
+}
+
+footer .socseti .faceb {
+  width: 1em;
+  color: white;
+  background-color: black;
+}
+
+footer .socseti .faceb:hover {
+  background-color: #D4AA00;
+}
+
+footer p {
+  font-size: 0.9em;
+  font-weight: 200;
+}

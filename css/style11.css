@@ -1,0 +1,74 @@
+form > * {
+  display: block;
+  margin: 10px;
+}
+
+label {
+  width: 20%;
+}
+
+form {
+  font-weight: bold;
+}
+
+.block {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: nowrap;
+  flex-wrap: nowrap;
+  -ms-flex-pack: distribute;
+  justify-content: space-around;
+}
+
+.block .first_form, .block .second_form {
+  background-color: #61b6ee;
+  width: 450px;
+  text-align: center;
+}
+
+.block .first_form input, .block .first_form select, .block .second_form input, .block .second_form select {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  background-color: #EDF2F5;
+  padding: 10px;
+  font-size: 20px;
+  border: none;
+  border-radius: 5px;
+  width: 400px;
+}
+
+.block .second_form {
+  background-color: #e22b2b;
+  width: 30%;
+}
+
+.block .second_form button {
+  width: 300px;
+  padding: 10px;
+  border-radius: 5px;
+  background-color: violet;
+  border: 1px solid silver;
+}
+
+button {
+  width: 400px;
+  padding: 10px;
+  border-radius: 5px;
+  background-color: #00ff15;
+  border: 1px solid silver;
+}
+
+/*
+  <label>Name: <input type="text"></label>
+          <label>Surname: <input type="text"></label>
+          <label>Name: <input type="text"></label>
+          <label>Human: <input type="radio" name="hum" id=""></label>
+          <label>NOhumen: <input type="radio" name="hum" id=""></label>
+          
+  
+          <textarea name="about" id="" cols="30" rows="10"></textarea>
+          <input type="submit" value="OK">
+  
+  */
+/*# sourceMappingURL=style11.css.map */

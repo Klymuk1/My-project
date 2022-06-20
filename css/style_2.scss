@@ -1,0 +1,80 @@
+body {
+    background: url(../img/TENCO_Lifestyle_warmer.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+  }
+  
+  p {
+    line-height: 2em;
+  }
+  
+  .bg_second {
+    background: url(../img/home_first.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    border-top: 1px solid white;
+    border-bottom: 1px solid white;
+  }
+  
+  .reach {
+    text-align: center;
+    color: white;
+  }
+  
+  .reach h3 {
+    margin: 70px auto 30px;
+    width: 70%;
+    font-size: 80px;
+    font-weight: 200;
+  }
+  
+  .reach .wrap_ul {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: nowrap;
+        flex-wrap: nowrap;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+    width: 60%;
+    margin: 70px auto;
+  }
+  
+  .reach .wrap_ul li {
+    line-height: 2em;
+    text-align: left;
+  }
+  
+  .existence {
+    background: white;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: nowrap;
+        flex-wrap: nowrap;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+    padding: 80px;
+  }
+  
+  .existence div {
+    width: 40%;
+  }
+  
+  .existence div h2 {
+    margin: 10px auto 50px;
+    text-align: center;
+    font-size: 60px;
+    font-weight: 300;
+  }
+  
+  .existence div p {
+    line-height: 2em;
+    margin-bottom: 30px;
+  }
+  
+  .existence div img {
+    width: 500px;
+  }

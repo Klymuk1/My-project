@@ -1,0 +1,70 @@
+body{
+  background: url(../img/priroda-reki-ozera-zakat-voda-skaly-ozer-1134437.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+  }
+  
+  p {
+    line-height: 2em;
+  }
+  
+  .first_atach {
+    background: url(../img/office_mcity1.jpg);
+    border: 1px solid white;
+    text-align: center;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+  }
+  
+  .first_atach h2 {
+    color: white;
+  }
+  
+  .first_atach p {
+    color: white;
+  }
+  .second_atach {
+    background: url(../img/stol-noutbuk-ruchka-bloknot-rastenie-ruka-chashka-kofe-pena.jpg);
+    border: 1px solid white;
+    text-align: center;
+    background-size:100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+  }
+  .second_atach p,h2{
+    color: white;
+  }
+  .inter{
+    background-color: white;
+    height: 100px;
+  }
+  .third_atach{
+    background: url(../img/doroga-les-vecher-serpantin.jpg);
+    border: 1px solid white;
+    text-align: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+   
+  }
+  .third_atach p,h2{
+    color: white;
+  }
+  .four_atach{
+    background: url(../img/sklon-gory-doroga-spusk-vecher.jpg);
+    border: 1px solid white;
+    text-align: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    width: 100%;
+  }
+  .four_atach p,h2
+  {
+    color: white;
+  }
+  .wrap_second-bg{
+    height: 65vh;
+  }

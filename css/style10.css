@@ -1,0 +1,19 @@
+form > * {
+  display: block;
+  margin: 7px;
+}
+
+label {
+  width: 150%;
+}
+
+form {
+  font-weight: bold;
+}
+
+#name, option {
+  font-size: 13px;
+  border-left: 6px solid green;
+  border-radius: 3px;
+}
+/*# sourceMappingURL=style10.css.map */

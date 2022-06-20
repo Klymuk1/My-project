@@ -1,0 +1,42 @@
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        <link rel="stylesheet" href="css/style10.css">
+    </head>
+    <body>
+        <h1>Hero Form</h1>
+        <form action="/action_page.php">
+             Name:<br>
+            <input type="text" name="firstname" value="Mickey"><br>
+           Alter Ego:<br>
+            <input type="text" name="lastname" value="Mouse"><br><br>
+            Hero Power <br>
+            <input type="text" name="lastname" value="Mouse"><br><br>
+            <input type="submit" value="Submit">
+          </form>
+
+
+          <form onsubmit="ok(this);return false">
+            <h3>Hero Form</h3>
+            <label>Name: <input type="text" id="name" name="name" value="Dr IQ"></label>
+            <label>Alter Ego: <input type="text" id="altname" name="altname" value="Chuck Overstreet"></label>
+    
+            <label>Herro Power: 
+                <select>
+                    <option>Really Smart</option>
+                    <option>Realy Stupid</option>
+                  </select>
+            </label>
+            <button type="submit">SUBMIT</button>
+    
+        </form>
+        <div class="one">
+            <textarea id="res-text" cols="20" rows="5"></textarea>
+        </div>
+        <script src="script1.js"></script>
+    </body>
+    </html>
